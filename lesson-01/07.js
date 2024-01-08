@@ -1,4 +1,3 @@
-​let iAm = 'я'
+​let iAm = 'я';
 let krasavchik = "красавчик!";
-//let full = iAm  +  krasavchik;
-let full = ${iAm} ${krasavchik};
+console.log(iAm.toUpperCase()+''+krasavchik);
