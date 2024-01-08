@@ -1,4 +1,7 @@
 let iAm = "я";
-let krasavchik "красавчик!";
-iAm = iAm.toUpperCase;
-console.log(iAm() + " " + krasavchik);
+let firstChar = iAm.charAt(0);
+let upperFirstChar = firstChar.toUpperCase();
+let restOfString = iAm.slice(1);
+let result = upperFirstChar + restOfString;
+let krasavchik = "красавчик";
+console.log(result + " " + krasavchik);
