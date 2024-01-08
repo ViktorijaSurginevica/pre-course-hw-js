@@ -1,5 +1,4 @@
-let iAm = 'я';
-let krasavchik 'красавчик!';
-let full = iAm.toUpperCase() + ' ' + krasavchik;
-let full = '${iAm} ${krasavchik}';
-console.log(full);
+let iAm = "я";
+let krasavchik "красавчик!";
+iAm = iAm.toUpperCase;
+console.log(iAm() + " " + krasavchik);
