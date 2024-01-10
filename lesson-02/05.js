@@ -2,7 +2,10 @@ let passport = {
     name: "Petr",
     surname: "Petrov",
 };
-let copy = passport;
-copy.name = 'Ivan';
-console.log (passport);
-console.log (copy);
+let clone = {};
+for (let key in passport) {
+    clone[key] = passport[key];
+}
+clone.name = 'Ivan';
+console.log (passport.name);
+console.log (clone.name);
